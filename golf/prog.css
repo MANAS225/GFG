@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: linear-gradient(to right, #11998e,#38ef7d);
+}
+h1 {
+    font-size: 36px;
+}
+
+section {
+    /* background-color: black; */
+    color:white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(220, 17, 17, 0.1);
+    border-radius: 10px;
+}
+.days:hover{
+    background-color: black;
+}
+
+.day{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.days{
+    margin-right: 80px;
+    width: 80px;
+    text-align: center;
+    border-radius: 20px;
+}
+.days h6{
+    font-size: 16px;
+}
+.progress-bar tbody tr td input{
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    border-color: #287b42;
+}
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.progress-bar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.progress-bar th, .progress-bar td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.progress-bar .progress {
+    height: 20px;
+    background-color: #0099CC;
+    width: 0%;
+    transition: width 0.5s;
+}
+
+.how-to-participate ol {
+    list-style: decimal;
+    padding: 0;
+    margin: 0;
+}
+
+.how-to-participate li {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #04f60ceb;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+.leaderboard table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leaderboard th, .leaderboard td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.tips-and-resources ul {
+    list-style: disc;
+    padding: 0;
+    margin: 0;
+}
+
+.tips-and-resources li {
+    margin-bottom: 10px;
+}
+/* Added a hover effect to the leaderboard table rows */
+.leaderboard tr:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+/* Added a border radius to the progress bar */
+.progress-bar .progress {
+    border-radius: 10px;
+}
+
+/* Added a shadow to the sections */
+section {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Added a background image to the header */
+header {
+    background-image: url('fitness-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Added a font size and color to the header title */
+header h1 {
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Added a padding to the footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+/* Added a font size and color to the footer text */
+footer p {
+    font-size: 18px;
+    color: whitesmoke;
+}
+footer p:hover{
+    color: #000;
+}

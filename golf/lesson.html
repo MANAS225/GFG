@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultancy Sessions</title>
+    <link rel="stylesheet" href="lesson.css">
+</head>
+<body>
+    <header>
+        <h1>FitPulse - Book a Lesson</h1>
+    </header>
+    <main>
+        <section class="lesson-types">
+            <h2>Choose a Lesson Type</h2>
+            <ul>
+                <li>
+                    <input type="radio" id="private-lesson" name="lesson-type" value="private">
+                    <label for="private-lesson">Private Lesson (Rs.5000)</label>
+                </li>
+                <li>
+                    <input type="radio" id="group-lesson" name="lesson-type" value="group">
+                    <label for="group-lesson">Group Lesson (Rs.3500)</label>
+                </li>
+                <li>
+                    <input type="radio" id="junior-lesson" name="lesson-type" value="junior">
+                    <label for="junior-lesson">Junior Lesson (Rs.2500)</label>
+                </li>
+            </ul>
+        </section>
+        <section class="schedule">
+            <h2>Select a Date and Time</h2>
+            <input type="date" id="lesson-date" value="2023-03-01">
+            <select id="lesson-time">
+                <option value="9:00 AM">9:00 AM</option>
+                <option value="10:00 AM">10:00 AM</option>
+                <option value="11:00 AM">11:00 AM</option>
+                <option value="1:00 PM">1:00 PM</option>
+                <option value="2:00 PM">2:00 PM</option>
+                <option value="3:00 PM">3:00 PM</option>
+            </select>
+        </section>
+        <section class="instructor">
+            <h2>Select an Instructor</h2>
+            <select id="instructor">
+                <option value="John Doe">Mahi Singhal</option>
+                <option value="Jane Smith">Ramyak Jain</option>
+                <option value="Bob Johnson">Prince Kumar</option>
+            </select>
+        </section>
+        <button id="book-lesson">Book Lesson</button>
+    </main>
+    <script src="lesson.js"></script>
+</body>
+</html>

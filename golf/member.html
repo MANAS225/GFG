@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golf Course Club Membership Registration</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <header>
+        <h1>FitPulse Club Membership Registration</h1>
+    </header>
+    <main>
+        <form id="membership-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+            <label for="Age">Age:</label>
+            <input type="Age" id="phone" name="Age"><br><br>
+            <label for="membership-type">Membership Type:</label>
+            <select id="membership-type" name="membership-type">
+                <option value="individual">Individual</option>
+                <option value="family">Family</option>
+                <option value="student">Student</option>
+            </select><br><br>
+            <label for="payment-method">Payment Method:</label>
+            <select id="payment-method" name="payment-method">
+                <option value="credit-card">Credit Card</option>
+                <option value="bank-transfer">Bank Transfer</option>
+            </select><br><br>
+            <input type="submit" value="Register">
+        </form>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
